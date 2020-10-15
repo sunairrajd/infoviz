@@ -4,20 +4,58 @@ html {
 
   }
 
-  body {
+  .black-body {
 
-background-color: rgb(1, 1, 23) !important;
+background-color: rgb(35, 35, 35) !important;
 
+    }
+
+    .home {
+
+      display:flex;
+    justify-content: center;
+      background-size:cover;
+      height:100vh;
+    }
+
+    .para {
+
+      font-size: 16px;
+      line-height:27px;
+      font-weight:300;
+    }
+
+    .quote {
+
+      color:rgba(222,255,255,0.3);
+      font-size:26px;
+      font-weight:300;
+      line-height: 30px;
+    }
+
+  .bg-pink {
+
+    background-color: pink;
+  }
+
+    .smalltxt {
+      font-size:12px;
+      font-weight:300;
+      color:rgb(150,150,150);
     }
 
 h1 {
 
   font-size: 60px !important;
+  font-weight:
 }
+
+
   p{
 
   font-size:14px;
   color:white;
+  font-weight:400;
 }
 
 .footer-text {
@@ -26,7 +64,11 @@ h1 {
   color: rgb(255,255,255,0.8);
 }
 
-a{
+.a_red{
+  color:#ED284D !important;
+}
+
+a {
   color:white !important;
 }
 
