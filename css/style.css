@@ -10,6 +10,11 @@ background-color: rgb(35, 35, 35) !important;
 
     }
 
+    .rcolor {
+
+      color:#f07520 !important;
+    }
+
     .home {
 
       display:flex;
